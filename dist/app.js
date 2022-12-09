@@ -19,7 +19,7 @@ var _tasks = _interopRequireDefault(require("./routes/tasks.routes"));
 
 var app = (0, _express["default"])(); // settings
 
-app.set("port", process.env.PORT || 3000);
+app.set("port", process.env.PORT || 80);
 app.set("views", _path["default"].join(__dirname, "views"));
 app.engine(".hbs", (0, _expressHandlebars.create)({
   layoutsDir: _path["default"].join(app.get("views"), "layouts"),

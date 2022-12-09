@@ -3,5 +3,6 @@
 }
 
 .taskFormHtmlId {
-  border-radius: 25%;
+  border-radius: 10% !important;
+  background-color: #374049 !important;
 }
